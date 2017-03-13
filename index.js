@@ -11,7 +11,7 @@ var job = {};
 server.on('request', function (req, res) {
     res.writeHead('200', {'Content-Type': 'text/plain'});
     if (req.method == 'GET') {
-        res.write('Bull shit !');
+        res.write('Hello World !');
         res.end();
     }
     if (req.method == 'PUT') {
